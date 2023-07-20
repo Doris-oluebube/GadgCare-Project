@@ -62,7 +62,7 @@ header .container {
 }
 
 .logo img {
-    width: 40px;
+    width: 150px;
     margin-right: .6rem;
     margin-top: -0.6rem;
 }
@@ -236,16 +236,12 @@ header .container {
 
 .service .components{
     display: flex;
-    
     justify-content: space-evenly;
-   
     max-width: 70rem;
-
     transform: translate(9%, 25px);
 }
 
 .service .text{
-   
     color: var(--darkOne);
 }
 
@@ -306,7 +302,6 @@ header .container {
 
 .service .components .component3{
     background-color: #EBEBEB;
-    
     border-radius: 10px;
     margin: 10px;
     padding: 20px;
