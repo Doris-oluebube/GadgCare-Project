@@ -1,0 +1,95 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.slide{
+  /* border: 2px solid black; */
+  margin: 15px;
+}
+
+.slide-content{
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.card{
+  border-radius: 15px;
+  background-color: #EBEBEB;
+  padding: 20px;
+}
+
+.image-content{
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+
+.card-image1{
+  background-color: #D4D4DC;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+
+.card-image2{
+  background-color: #E8DCCD;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+
+
+.name{
+  color: black;
+  font-size: 22px;
+}
+.description{
+  color: #545259;
+  font-size: 20px;
+}
+.slide button{
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 13px;
+  width: 40%;
+  border: 2px solid #31316D;
+  position: relative;
+}
+.slide button a{
+  text-decoration: none;
+  color: #31316D;
+}
+
+.swiper-navBtn{
+  color: #6E93f7;
+  transition: color 0.3s ease;
+}
+.swiper-navBtn:hover{
+  color: #4070F4;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+  font-size: 35px;
+}
+.swiper-button-next{
+  right: 0;
+}
+.swiper-button-prev{
+  left: 0;
+}
+.swiper-pagination-bullet{
+  background-color: #6E93f7;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active{
+  background-color: #4070F4;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-content{
+    margin: 0 10px;
+  }
+  .swiper-navBtn{
+    display: none;
+  }
+}
