@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="faq.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="faq-wrapper">
+        <h3>Frequently Asked Questions</h3>
+
+        <div class="faq">
+            <button class="accordion">
+                How do I find trusted repairers for my gadget?
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="pannel">
+                <p>
+                    We have only verified Repairers on our platform. Search for repairers based on location using our search button, device type and repair needs; Read reviews and ratings from previous customers; Directly message repairers for inquiries and appointments.
+                    </p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <button class="accordion">
+                Can I trust the review and ratings on the platform?
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="pannel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde magnam repudiandae quos asperiores! Eligendi nobis,
+                     similique aperiam delectus reprehenderit quibusdam 
+                    impedit soluta iure itaque voluptas perferendis, asperiores saepe doloribus veritatis!</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <button class="accordion">
+                Are the repairers on the platform reliable?
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="pannel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde magnam repudiandae quos asperiores! Eligendi nobis,
+                     similique aperiam delectus reprehenderit quibusdam 
+                    impedit soluta iure itaque voluptas perferendis, asperiores saepe doloribus veritatis!</p>
+            </div>
+        </div>
+        
+        <div class="faq">
+            <button class="accordion">
+                How does GadgCare platform works?
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="pannel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde magnam repudiandae quos asperiores! Eligendi nobis,
+                     similique aperiam delectus reprehenderit quibusdam 
+                    impedit soluta iure itaque voluptas perferendis, asperiores saepe doloribus veritatis!</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <button class="accordion">
+                What kind of gadgets can I get repaired through the platform? 
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="pannel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde magnam repudiandae quos asperiores! Eligendi nobis,
+                     similique aperiam delectus reprehenderit quibusdam 
+                    impedit soluta iure itaque voluptas perferendis, asperiores saepe doloribus veritatis!</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <button class="accordion">
+                Is there any warranty for the repairs?
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="pannel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde magnam repudiandae quos asperiores! Eligendi nobis,
+                     similique aperiam delectus reprehenderit quibusdam 
+                    impedit soluta iure itaque voluptas perferendis, asperiores saepe doloribus veritatis!</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName(
+            "accordion"
+        );
+        var i;
+        for(i = 0; i < acc.length; i++){
+            acc[i].addEventListener("click", function(){
+                this.classList.toggle("active");
+                this.parentElement.classList.toggle("active");
+
+                var pannel = this.nextElementSibling;
+
+                if(pannel.style.display === "block"){
+                    pannel.style.display = "none";
+                }else{
+                    pannel.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+</html>
