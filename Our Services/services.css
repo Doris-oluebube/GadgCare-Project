@@ -166,6 +166,126 @@ button a{
     text-decoration: none;
     color: #31316D;
 }
+
+/* Easy D-I-Y Gadget Tips */
+
+.DIY .gadgets{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+
+}
+
+.DIY .gadgets .gadget1{
+    background-color: #EBEBEB;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+
+}
+.DIY .gadgets .gadget1 .gadget1a{
+    background-color: #D4D4DC;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.DIY .gadgets .gadget1 .gadget1b p{
+    color: #545259;
+    font-size: 20px;
+}
+.DIY .gadgets .gadget1 .gadget1b h3{
+    color: black;
+    font-size: 22px;
+}
+
+.DIY .gadgets .gadget2{
+    background-color: #EBEBEB;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+.DIY .gadgets .gadget2 .gadget2a{
+    background-color: #E8DCCD;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.DIY .gadgets .gadget2 .gadget2b p{
+    color: #545259;
+    font-size: 20px;
+}
+.DIY .gadgets .gadget2 .gadget2b h3{
+    color: black;
+    font-size: 22px;
+}
+
+
+.DIY .gadgets .gadget3{
+    background-color: #EBEBEB;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+
+}
+.DIY .gadgets .gadget3 .gadget3a{
+    background-color: #D4D4DC;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.DIY .gadgets .gadget3 .gadget3b p{
+    color: #545259;
+    font-size: 20px;
+    
+}
+.DIY .gadgets .gadget3 .gadget3b h3{
+    color: black;
+    font-size: 22px;
+}
+
+.DIY .gadgets .gadget4{
+    background-color: #EBEBEB;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+.DIY .gadgets .gadget4 .gadget4a{
+    background-color: #E8DCCD;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.DIY .gadgets .gadget4 .gadget4b p{
+    color: #545259;
+    font-size: 20px;
+    
+}
+.DIY .gadgets .gadget4 .gadget4b h3{
+    color: black;
+    font-size: 22px;
+}
+
+.DIY .gadgets button{
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 13px;
+    width: 40%;
+    border: 2px solid #31316D;
+    position: relative;
+}
+.DIY .gadgets button a{
+    text-decoration: none;
+    color: #31316D;
+}
+
+
 /* @media screen and(max-width:500px) {
 
     .gadgets{
