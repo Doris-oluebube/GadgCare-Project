@@ -1,9 +1,15 @@
 /* Google Fonts - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
+*{
+  margin: 0px;
+  padding: 5px;
+  box-sizing: border-box;
+}
 .slide{
   /* border: 2px solid black; */
-  margin: 15px;
+  height: 100vh;
+  
 }
 
 .slide-content{
@@ -16,6 +22,9 @@
   border-radius: 15px;
   background-color: #EBEBEB;
   padding: 20px;
+  position: relative;
+  
+  
 }
 
 .image-content{
@@ -61,11 +70,11 @@
 }
 
 .swiper-navBtn{
-  color: #6E93f7;
+  color: #00004D;
   transition: color 0.3s ease;
 }
 .swiper-navBtn:hover{
-  color: #4070F4;
+  color: #00004D;
 }
 .swiper-navBtn::before,
 .swiper-navBtn::after{
@@ -77,12 +86,17 @@
 .swiper-button-prev{
   left: 0;
 }
+
+
 .swiper-pagination-bullet{
-  background-color: #6E93f7;
+  background-color: #00004D;
   opacity: 1;
+  height: 10px;
+  width: 10px;
+  border-radius: 50px;
 }
 .swiper-pagination-bullet-active{
-  background-color: #4070F4;
+  background-color: #545259;
 }
 
 @media screen and (max-width: 768px) {
