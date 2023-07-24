@@ -402,13 +402,61 @@ button a{
 }
 
 
+/* Why Choose Us */
+
+.why .reason1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 15px;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  .why .reason1 .reason1a, .reason1b, .reason1c {
+    border-radius: 10px;
+    background-color: #EBEBEB;
+    padding: 20px;
+    width: 60%;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .why .reason1 img{
+    width: 20%;
+  }
+  
+  .why .reason2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 15px;
+    padding: 10px;
+    align-items: flex-start;
+    font-size: 18px;
+    
+  }
+  .why .reason2 img{
+    width: 20%;
+  }
+  
+  .why .reason2 .reason2a, .reason2b, .reason2c{
+    border-radius: 10px;
+    background-color: #EBEBEB;
+    padding: 20px;
+    width: 50%;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+
 /* DIY TIPS */
 
 
 .slide .text{
   /* border: 2px solid black; */
   /* height: 100vh; */
-  margin: 50px 110px;
+  margin: 30px 10px;
 }
 
 .slide-content{
@@ -419,12 +467,11 @@ button a{
   width: 70%;
 }
 
-.card{
+.slide .card{
   border-radius: 15px;
   background-color: #EBEBEB;
   padding: 20px;
   position: relative;
-  
   
 }
 
@@ -435,7 +482,7 @@ button a{
   
 }
 
-.card-image1{
+.slide .card-image1{
   background-color: #D4D4DC;
   padding: 10px;
   border-radius: 5px;
@@ -443,7 +490,7 @@ button a{
 
 }
 
-.card-image2{
+.slide .card-image2{
   background-color: #E8DCCD;
   padding: 10px;
   border-radius: 5px;
@@ -452,11 +499,11 @@ button a{
 }
 
 
-.name{
+.slide .name{
   color: black;
   font-size: 22px;
 }
-.description{
+.slide .description{
   color: #545259;
   font-size: 16px;
   margin-top: 10px;
@@ -464,11 +511,10 @@ button a{
 }
 .slide button{
   border-radius: 10px;
-  font-size: 18px;
+  font-size: 16px;
   padding: 13px;
   width: 50%;
   background-color: #E8C291;
-  border: solid #E8C291;
   position: relative;
 }
 .slide button a{
@@ -476,44 +522,38 @@ button a{
   color: #31316D;
 }
 
-.swiper-navBtn{
+.slide .swiper-navBtn{
   color: #00004D;
   transition: color 0.3s ease;
 }
-.swiper-navBtn:hover{
+.slide .swiper-navBtn:hover{
   color: #00004D;
 }
-.swiper-navBtn::before,
+.slide .swiper-navBtn::before,
 .swiper-navBtn::after{
   font-size: 35px;
 }
-.swiper-button-next{
+.slide .swiper-button-next{
   right: 0;
 }
-.swiper-button-prev{
+.slide .swiper-button-prev{
   left: 0;
 }
 
 
-.swiper-pagination-bullet{
+.slide .swiper-pagination-bullet{
   background-color: #00004D;
   opacity: 1;
-  height: 50px;
-  width: 50px;
-  border-radius: 50px;
+  height: 10px;
+  width: 10px;
+  border-radius: 15px;
+
 }
-.swiper-pagination-bullet-active{
+.slide .swiper-pagination-bullet-active{
   background-color: #545259;
 }
 
-@media screen and (max-width: 768px) {
-  .slide-content{
-    margin: 0 10px;
-  }
-  .swiper-navBtn{
-    display: none;
-  }
-}
+
 
   /* FAQ */
 
@@ -599,7 +639,7 @@ button a{
 
 .swiper {
     width: 100%;
-    height: 600px;
+    height: 500px;
    
   }
 
@@ -646,6 +686,57 @@ button a{
     margin-bottom: 10px;
 }
 
+
+/* Become a Repair Technician */
+
+.technician{
+    display: flex;
+    flex-direction: row;
+    /* margin: 20px;
+    padding: 15px; */
+  }
+  
+  .technician .technician1{
+    font-size: 18px;
+    padding: 20px;
+    width: 50%;
+  
+  }
+  .technician .technician1 h2{
+    padding-bottom: 20px;
+    font-size: 32px;
+  
+  }
+  .technician .technician1 p{
+    padding-bottom: 20px;
+    font-size: 18px;
+  
+  }
+  /* .technician .technician2 img{
+  height: 85%;
+  
+  
+  }
+   */
+  .technician button{
+    background-color: #DEB887;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 13px;
+    width: 50%;
+    margin-top: 40px;
+  }
+  
+  .technician button a{
+    text-decoration: none;
+    color: #000000;
+  }
+  .technician button a:hover{
+    text-decoration: none;
+    color: #00004D;
+    transition: color 0.3s ease;
+  }
 
 /* header {
     text-align: center;
@@ -834,4 +925,13 @@ footer {
     .footer-distributed .footer-center i {
         margin-left: 0;
     }
-}       
+}  
+
+@media screen and (max-width: 768px) {
+    .slide-content{
+      margin: 0 10px;
+    }
+    .swiper-navBtn{
+      display: none;
+    }
+  }
