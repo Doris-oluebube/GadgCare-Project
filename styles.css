@@ -43,12 +43,12 @@ a {
 }
 
 .big-wrapper {
-    padding: 1.7rem 0 2rem;
+    /* padding: 1.7rem 0 2rem; */
     /* width: 100%; */
     min-height: 1000px;
-    border: solid #00004D;
-    overflow: hidden;
-    /* background-color: var(--backgroundColor); */
+    /* border: solid #00004D; */
+    /* overflow: hidden; */
+    background-color: var(--backgroundColor);
     /* display: flex;
     flex-direction: column;
     justify-content: space-between; */
@@ -60,9 +60,7 @@ a {
     min-width: 100%;
     /* margin: 0 auto; */
     padding: 0 3rem;
-    margin-top: -50px;
     z-index: 10;
-
 }
 
 header .container {
@@ -212,9 +210,9 @@ header .container {
 }
 
 .showcase-area .person {
-   width: 90%;
+   width: 100%;
     /* transform: translate(15%, 25px); */
-    margin-left: 12%;
+    /* margin-left: 12%; */
 }
 
 
@@ -233,7 +231,7 @@ header .container {
     color: white;
     background-color: var(--mainColor);
     text-align: center;
-    
+    margin-bottom: 60px;
     
 }
 
@@ -257,31 +255,32 @@ header .container {
     background-color: white;
     border-radius: 16px;
     transition: 0.3s;
-   
     margin-top: 1.6rem;
     margin-bottom: 0.8rem;
-   
     line-height: 1.3;
 }
 
 /* OUR SERVICES */
 
 .service{
-    margin-top: 30px;
+    margin-bottom: 60px;
     /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
 }
 
 
-.service .text h2{
-    padding: 10px;
+.service h2{
+    /* padding: 8px; */
+    margin: 15px;
+    padding-bottom: 10px;
 }
 
 
 .service .components{
     display: flex;
     flex-direction: row;
-    padding: 10px;
+    /* padding: 10px; */
     justify-content: space-around;
+    margin: 10px;
     
 }
 
@@ -402,6 +401,7 @@ header .container {
 
 .why{
     margin: 10px;
+    margin-bottom: 60px;
 }
 .why h2{
     margin: 10px;
@@ -424,6 +424,11 @@ header .container {
     margin-right: 5px;
     margin-left: 5px;
     justify-content: space-around;
+    
+}
+.why .reason1 p{
+    color: #464647;
+    font-size: 18px;
 }
   
 .why .reason2{
@@ -445,113 +450,120 @@ header .container {
     margin-right: 5px;
     margin-left: 5px;
     justify-content: space-around;
-}  
+}
+.why .reason2 p{
+    color: #545259;
+    font-size: 18px;
+}
   
 
 
 /* DIY TIPS */
 
 
-.slide .text{
-  /* border: 2px solid black; */
-  /* height: 100vh; */
-  margin: 30px 10px;
+.slide{
+    /* height: 100vh; */
+    margin: 25px;
+    
 }
-
-.slide-content{
-  border-radius: 25px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 70%;
+.slide h2{
+    margin: 10px;
+    padding-bottom: 10px;
 }
-
+  
+.slide .slide-content{
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 .slide .card{
-  border-radius: 15px;
-  background-color: #EBEBEB;
-  padding: 20px;
-  position: relative;
-  
+    border-radius: 15px;
+    background-color: #EBEBEB;
+    padding: 10px;
+    position: relative;
+    padding-bottom: 20px;
+    
 }
-
-.image-content{
-  position: relative;
-  row-gap: 5px;
-  padding: 25px 0;
   
-}
-
+.slide .image-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+  }
+  
 .slide .card-image1{
-  background-color: #D4D4DC;
-  padding: 10px;
-  border-radius: 5px;
-  width: 100%;
-
+    background-color: #D4D4DC;
+    padding: 10px;
+    border-radius: 5px;
+  
 }
-
+  
 .slide .card-image2{
-  background-color: #E8DCCD;
-  padding: 10px;
-  border-radius: 5px;
-  width: 100%;
-
+    background-color: #E8DCCD;
+    padding: 10px;
+    border-radius: 5px;
+  
 }
-
-
+  
+  
 .slide .name{
-  color: black;
-  font-size: 22px;
+    color: black;
+    font-size: 22px;
 }
 .slide .description{
-  color: #545259;
-  font-size: 16px;
-  margin-top: 10px;
-  
+    color: #545259;
+    font-size: 18px;
+    padding: 5px;
 }
 .slide button{
-  border-radius: 10px;
-  font-size: 16px;
-  padding: 13px;
-  width: 50%;
-  background-color: #E8C291;
-  position: relative;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 13px;
+    width: 40%;
+    border: none;
+    position: relative;
+    background-color: #DEB887;
 }
 .slide button a{
-  text-decoration: none;
-  color: #31316D;
+    text-decoration: none;
+    color: #000000;
 }
-
+.slide button a:hover{
+    text-decoration: none;
+    color: #00004D;
+    transition: color 0.3s ease;
+}
+  
 .slide .swiper-navBtn{
-  color: #00004D;
-  transition: color 0.3s ease;
+    color: #00004D;
+    transition: color 0.3s ease;
 }
 .slide .swiper-navBtn:hover{
-  color: #00004D;
+    color: #00004D;
 }
-.slide .swiper-navBtn::before,
-.swiper-navBtn::after{
-  font-size: 35px;
+.slide  .swiper-navBtn::before,
+  .swiper-navBtn::after{
+    font-size: 10px;
 }
 .slide .swiper-button-next{
-  right: 0;
+    right: 0;
 }
 .slide .swiper-button-prev{
-  left: 0;
+    left: 0;
 }
-
-
+  
+  
 .slide .swiper-pagination-bullet{
-  background-color: #00004D;
-  opacity: 1;
-  height: 10px;
-  width: 10px;
-  border-radius: 15px;
-
+    background-color: #00004D;
+    opacity: 1;
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
 }
-.slide .swiper-pagination-bullet-active{
-  background-color: #545259;
-}
-
+.slide  .swiper-pagination-bullet-active{
+    background-color: #545259;
+  }
 
 
   /* FAQ */
@@ -560,6 +572,7 @@ header .container {
 .faq-wrapper {
     background-color: #EBEBEB;
     margin-top: 7%;
+    margin-bottom: 60px;
 }
 
 .faq-wrapper > h3 {
@@ -570,7 +583,7 @@ header .container {
    font-size: 1.8rem;
 }
 
-.accordion {
+.faq-wrapper .accordion {
     background-color: #EBEBEB;
     color: rgb(0,0 0, 0.8);
     cursor: pointer;
@@ -587,15 +600,15 @@ header .container {
     font-weight: bold;
 }
 
-.accordion i {
+.faq-wrapper .accordion i {
     font-size: 1rem;
 }
 
-.active, .accordion:hover{
+.faq-wrapper .active, .accordion:hover{
     background-color: #EBEBEB;
 }
 
-.pannel {
+.faq-wrapper .pannel {
     padding: 0 2rem 2.5rem 2rem;
     background-color: white;
     overflow: hidden;
@@ -603,19 +616,19 @@ header .container {
     display: none;
 }
 
-.pannel p {
+.faq-wrapper .pannel p {
     color: rgba(0, 0, 0, 0.7);
     font-size: 1.2rem;
     line-height: 1.4;
 }
 
-.faq {
+.faq-wrapper .faq {
     margin: 0 20%;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 
-.faq.active{
+.faq-wrapper .faq.active{
     border: none;
 }
 
@@ -627,35 +640,35 @@ header .container {
     align-items: center;
 }
 
-.board {
+.review-container .board {
     max-width: 987px;
     width: 100%;
     /* background-color: var(--color-dark); */
     text-align: center;
     border-radius: 8px;
-    padding: 4em 0;
+    /* padding: 4em 0; */
 }
 
-.swiper {
+.review-container .swiper {
     width: 100%;
     height: 500px;
    
   }
 
-.border-rev {
+.review-container .border-rev {
     width: 160px;
     height: 5px;
     background: #00004D;
     margin: 26px auto;
 }
 
-.col {
+.review-container .col {
     background: #EDEDED80;
     border-radius: 10px;
     border: 3px solid #00004D;
 }
 
-.slide-review img {
+.review-container .slide-review img {
     width: 15%;
     height: 15%;
     margin-top: 5px;
@@ -664,23 +677,23 @@ header .container {
 }
 
 
-.stars {
+.review-container .stars {
     color: yellow;
     margin-top: 20px;
     
 }
 
-.name-text {
+.review-container .name-text {
     line-height: 1rem;
     margin-top: 20px;
 }
 
-.name-text > p {
+.review-container .name-text > p {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.slide-review > p {
+.review-container .slide-review > p {
     padding: 10px 50px;
     margin-bottom: 10px;
 }
@@ -691,14 +704,13 @@ header .container {
 .technician{
     display: flex;
     flex-direction: row;
-    /* margin: 20px;
-    padding: 15px; */
+    margin: 20px;
+    padding: 15px;
   }
   
   .technician .technician1{
     font-size: 18px;
     padding: 20px;
-    width: 50%;
   
   }
   .technician .technician1 h2{
@@ -711,12 +723,12 @@ header .container {
     font-size: 18px;
   
   }
-  /* .technician .technician2 img{
-  height: 85%;
+  .technician .technician2 img{
   
+  object-fit: contain;
   
   }
-   */
+  
   .technician button{
     background-color: #DEB887;
     border: none;
@@ -759,14 +771,6 @@ footer {
     bottom: 0;
 }
 
-@media (max-height:800px) {
-    footer {
-        position: static;
-    }
-    header {
-        padding-top: 40px;
-    }
-}
 
 .footer-distributed {
     background-color: #00004D;
@@ -934,3 +938,13 @@ footer {
       display: none;
     }
   }
+
+  @media (max-height:800px) {
+    footer {
+        position: static;
+    }
+    header {
+        padding-top: 40px;
+    }
+}
+
