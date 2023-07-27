@@ -402,6 +402,83 @@ button a{
 }
 
 
+.why .reason1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 15px;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  .reason1a img {
+    width: 10%;
+  }
+  
+  .reason1b img {
+    width: 10%;
+  }
+  
+  .reason1c img {
+    width: 10%;
+  }
+  .reason2a img {
+    width: 10%;
+  }
+  
+  .reason2b img {
+    width: 10%;
+  }
+  
+  .reason2c img {
+    width: 10%;
+  }
+  .why p {
+    line-height: 2rem;
+  }
+  
+  .why h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .why .reason1 .reason1a, .reason1b, .reason1c {
+    border-radius: 10px;
+    background-color: #EBEBEB;
+    padding: 20px;
+    width: 50%;
+    height: fit-content;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  .why .reason2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 15px;
+    padding: 10px;
+    align-items: flex-start;
+    font-size: 18px;
+    
+  }
+  
+  .why .reason2 .reason2a, .reason2b, .reason2c{
+    border-radius: 10px;
+    background-color: #EBEBEB;
+    padding: 20px;
+    width: 50%;
+    height: fit-content;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .why-text{
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  
+
+
 /* DIY TIPS */
 
 
@@ -645,6 +722,62 @@ button a{
     padding: 10px 50px;
     margin-bottom: 10px;
 }
+
+
+.technician{
+    display: flex;
+    flex-direction: row;
+   
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  
+  .technician .technician1{
+    font-size: 18px;
+   
+  
+  }
+
+  .technician1 ol {
+    margin-left: 5%;
+    line-height: 3rem;
+  }
+  .technician .technician1 h2{
+    padding-bottom: 20px;
+    font-size: 32px;
+  
+  }
+  .technician .technician1 p{
+    padding-bottom: 20px;
+    font-size: 18px;
+    max-width: 600px;
+    line-height: 2rem;
+  
+  }
+  .technician .technician2 img{
+  height: 100%;
+  
+  }
+  
+  .technician button{
+    background-color: #DEB887;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 13px;
+    width: 50%;
+    margin-top: 40px;
+  }
+  
+  .technician button a{
+    text-decoration: none;
+    color: #000000;
+  }
+  .technician button a:hover{
+    text-decoration: none;
+    color: #00004D;
+    transition: color 0.3s ease;
+  }
 
 
 /* header {
