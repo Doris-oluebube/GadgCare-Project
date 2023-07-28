@@ -398,11 +398,15 @@ nav .container {
 .service .components .component1 .component1b p {
     color: #545259;
     font-size: 18px;
+    margin-top: 20px;
+
 }
 
 .service .components .component1 .component1b h3 {
     color: black;
     font-size: 22px;
+    margin-top: 20px;
+
 
 }
 
@@ -424,11 +428,15 @@ nav .container {
 .service .components .component2 .component2b p {
     color: #545259;
     font-size: 18px;
+    margin-top: 20px;
+
 }
 
 .service .components .component2 .component2b h3 {
     color: black;
     font-size: 22px;
+    margin-top: 20px;
+
 }
 
 
@@ -451,12 +459,16 @@ nav .container {
 .service .components .component3 .component3b p {
     color: #545259;
     font-size: 18px;
+    margin-top: 20px;
+
 
 }
 
 .service .components .component3 .component3b h3 {
     color: black;
     font-size: 22px;
+    margin-top: 20px;
+
 }
 
 .service .components .component4 {
@@ -477,12 +489,15 @@ nav .container {
 .service .components .component4 .component4b p {
     color: #545259;
     font-size: 18px;
+    margin-top: 20px;
 
 }
 
 .service .components .component4 .component4b h3 {
     color: black;
     font-size: 22px;
+    margin-top: 20px;
+
 }
 
 
@@ -496,8 +511,8 @@ nav .container {
     position: relative;
     margin-top: 1rem;
     text-decoration: none;
-
-
+    border: none;
+    margin-top: 20px;
 }
 
 .service button a {
@@ -529,8 +544,9 @@ nav .container {
     flex-direction: row;
     justify-content: space-around;
     /* margin: 15px; */
-    padding: 10px;
+    padding: 15px;
     font-size: 18px;
+    margin: 10px;
 }
 
 .why .reason1 .reason1a,
@@ -672,7 +688,8 @@ nav .container {
     width: 50%;
     border: none;
     position: relative;
-    background-color: #DEB887;
+    background-color: #E8C291;
+    margin-top: 20px;
 }
 
 .slide button a {
@@ -751,6 +768,7 @@ nav .container {
     background-color: #EBEBEB;
     margin-top: 7%;
     margin-bottom: 60px;
+    justify-content: left;
 }
 
 .faq-wrapper>h3 {
@@ -908,7 +926,7 @@ nav .container {
 }
 
 .technician button {
-    background-color: #DEB887;
+    background-color: #E8C291;
     border: none;
     border-radius: 10px;
     font-size: 18px;
