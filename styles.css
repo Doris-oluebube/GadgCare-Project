@@ -217,11 +217,11 @@ nav .container {
     margin-bottom: 10px;
 }
 
-.showcase-area .left {
-    /* transform: translate(30%, 25px); */
+/* .showcase-area .left {
+    transform: translate(30%, 25px);
 
 
-}
+} */
 
 .showcase-area .left>p {
     width: 100%;
@@ -487,19 +487,22 @@ nav .container {
 
 
 .service button {
-    border-radius: 10px;
+    border-radius: 15px;
     font-size: 18px;
     padding: 15px;
-    width: 100%;
-    border: 1px solid #31316D;
+    width: 80%;
+    /* border: 1px solid #31316D; */
+    background-color: #E8C291;
     position: relative;
     margin-top: 1rem;
+    text-decoration: none;
+
 
 }
 
 .service button a {
-    text-decoration: none;
-    color: #31316D;
+    /* text-decoration: none; */
+    color: #000000;
 }
 
 
