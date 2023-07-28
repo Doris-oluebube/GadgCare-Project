@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 100%;
+    height: auto
+}
+
+.container .about1{
+    margin-bottom: 50px;
+    
+}
+
+.container .about1 img{
+    width: 100%;
+    height: auto;
+}
+
+.container .about2{
+    margin: 30px;
+    margin-bottom: 50px;
+    padding: 20px;
+    width: 100%;
+    /* height: auto; */
+}
+.container .about2 h2{
+    font-weight: bold;
+    margin: 20px;
+}
+.container .about2 .who{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container .about2 .who .who1{
+    padding-left: 20px;
+    font-size: 19px;
+    line-height: 25px;
+}
+.container .about2 .who .who2{
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+    
+    
+}
+.container .about2 .who .who2 img{
+    min-width: 100%;
+    height: auto;
+}
+
+.container .values{
+    width: 100%;
+    height: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    background-color: #E5E5ED;
+
+}
+
+.container .values h2{
+    font-weight: bold;
+    margin: 20px;
+}
+.container .values .values1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.container .values .values1 h3{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.container .values .values1 p{
+    font-size: 19px;
+    padding-bottom: 15px;
+    line-height: 25px;
+}
+
+
+.container .technicians{
+    margin: 30px;
+    margin-bottom: 50px;
+    padding: 20px;
+    width: 100%;
+    
+}
+.container .technicians h2{
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.container .technicians .technicians1{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    
+}
+
+.container .technicians .technicians1 h4{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.container .technicians .technicians1 p{
+    font-size: 19px;
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+
+.container .technicians .technicians1 .technicians1a{
+    margin: 15px;
+}
+.container .technicians .technicians1 .technicians1a .image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.container .technicians .technicians1 .technicians1a .image p{
+    font-size: 16px;
+    
+}
+
+
+.container .technicians .technicians1 .technicians1b{
+    margin: 15px;
+}
+
+.container .technicians .technicians1 .technicians1b .image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.container .technicians .technicians1 .technicians1b .image p{
+    font-size: 18px;
+    
+}
+
+
+.container .technicians .technicians1 .technicians1c{
+    margin: 15px;
+}
+
+.container .technicians .technicians1 .technicians1c .image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.container .technicians .technicians1 .technicians1c .image p{
+    font-size: 18px;
+    
+}
+
+
+
+
