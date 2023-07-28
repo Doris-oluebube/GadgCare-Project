@@ -919,6 +919,13 @@ nav .container {
 .technician .technician1 p {
     padding-bottom: 20px;
     font-size: 18px;
+    line-height: 30px;
+}
+
+.technician .technician1 li {
+    padding-bottom: 20px;
+    font-size: 18px;
+    line-height: 25px;
 }
 
 .technician .technician2 img {
