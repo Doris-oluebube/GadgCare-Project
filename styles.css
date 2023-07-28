@@ -159,28 +159,6 @@ nav .container {
    
 }
 
-/* @keyframes vibrate {
-    0% {
-        transform: translateX(0);
-    }
-
-    25% {
-        transform: translateX(-2px) rotate(-1deg);
-    }
-
-    50% {
-        transform: translateX(2px) rotate(1deg);
-    }
-
-    75% {
-        transform: translateX(-2px) rotate(1deg);
-    }
-
-    100% {
-        transform: translateX(2px) rotate(-1deg);
-    }
-} */
-
 .btn:hover >a {
     animation-play-state: paused;
     background-color: var(--mainColor);
