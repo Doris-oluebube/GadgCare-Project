@@ -5,8 +5,9 @@
 }
 
 .container{
-    width: 100%;
+    min-width: 100%;
     height: auto
+    
 }
 
 .container .about1{
@@ -23,12 +24,13 @@
     margin: 30px;
     margin-bottom: 50px;
     padding: 20px;
-    width: 100%;
+    /* width: 100%; */
     /* height: auto; */
 }
 .container .about2 h2{
     font-weight: bold;
     margin: 20px;
+    
 }
 .container .about2 .who{
     display: flex;
@@ -41,19 +43,19 @@
     line-height: 25px;
 }
 .container .about2 .who .who2{
-    width: 100%;
+    /* width: 100%; */
     height: auto;
     /* border: 2px solid red; */
     
     
 }
 .container .about2 .who .who2 img{
-    min-width: 100%;
+    /* min-width: 100%; */
     height: auto;
 }
 
 .container .values{
-    width: 100%;
+    /* width: 100%; */
     height: auto;
     padding-left: 50px;
     padding-right: 50px;
@@ -64,9 +66,14 @@
 
 }
 
+.container .text {
+    margin-left: 20px;
+}
+
 .container .values h2{
     font-weight: bold;
     margin: 20px;
+   
 }
 .container .values .values1{
     display: flex;
@@ -78,18 +85,20 @@
 .container .values .values1 h3{
     font-weight: bold;
     font-size: 20px;
+    padding: 20px;
     padding-bottom: 15px;
 }
 
 .container .values .values1 p{
     font-size: 19px;
     padding-bottom: 15px;
-    line-height: 25px;
+    padding: 20px;
+    line-height: 30px;
 }
 
 
 .container .technicians{
-    margin: 30px;
+    /* margin: 30px; */
     margin-bottom: 50px;
     padding: 20px;
     width: 100%;
